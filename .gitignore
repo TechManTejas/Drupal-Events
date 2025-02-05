@@ -1,0 +1,18 @@
+# Ignore Drupal-generated files and configurations
+sites/default/files/
+sites/default/private/
+sites/default/settings.php
+sites/default/settings.local.php
+sites/default/services.yml
+sites/default/files/
+
+# Ignore vendor and contributed modules/themes (if using Composer)
+vendor/
+web/core/
+web/modules/contrib/
+web/themes/contrib/
+web/profiles/contrib/
+
+# Ignore composer dependencies
+composer.lock
+composer.phar
